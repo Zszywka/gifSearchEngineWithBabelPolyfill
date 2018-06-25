@@ -37,7 +37,10 @@ App = React.createClass({
         searchingText: searchingText
       });
     })
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4857a966cc90349ba07c467fc57d95738aa085fe
     .catch(function(error) {
       console.log(error);
     });

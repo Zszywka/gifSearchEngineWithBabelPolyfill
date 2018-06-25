@@ -7,9 +7,13 @@ Search = React.createClass({
   },
 
   handleChange: function(event) {
+<<<<<<< HEAD
     var searchingText1 = event.target.value;
+=======
+    var searchingText = event.target.value;
+>>>>>>> 4857a966cc90349ba07c467fc57d95738aa085fe
     this.setState({
-      searchingText: searchingText1
+      searchingText: searchingText
     });
     if (searchingText.length > 2) {
       this.props.onSearch(searchingText);
@@ -19,6 +23,10 @@ Search = React.createClass({
   handleKeyUp: function(event) {
     if (event.keyCode === 13) {
       this.props.onSearch(this.state.searchingText);
+<<<<<<< HEAD
+=======
+    }
+>>>>>>> 4857a966cc90349ba07c467fc57d95738aa085fe
   },
 
   render: function() {
