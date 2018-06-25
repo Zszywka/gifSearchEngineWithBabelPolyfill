@@ -35,7 +35,7 @@ App = React.createClass({
         gif: gif,
         searchingText: searchingText
       });
-    });
+    })
     .catch(function(error) {
       console.log(error);
     });
