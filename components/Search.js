@@ -7,7 +7,7 @@ Search = React.createClass({
   },
 
   handleChange: function(event) {
-    var searchingText1 = event.target.value;
+    var searchingText = event.target.value;
 
     this.setState({
       searchingText: searchingText
