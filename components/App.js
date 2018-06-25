@@ -73,6 +73,7 @@ App = React.createClass({
             resolve(gif);
           } else {
             reject(new Error(this.statusText));
+            console.log(this.statusText);
           }
         }
       }
