@@ -1,4 +1,4 @@
-var GIPHY_LOADING_URL = '/loader.gif';
+var GIPHY_LOADING_URL = './loader.gif';
 
 var styles = {
   minHeight: '310px',
