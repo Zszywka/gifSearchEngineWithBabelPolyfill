@@ -7,9 +7,9 @@ Search = React.createClass({
   },
 
   handleChange: function(event) {
-    var searchingText1 = event.target.value;
+    var searchingText = event.target.value;
     this.setState({
-      searchingText: searchingText1
+      searchingText: searchingText
     });
     if (searchingText.length > 2) {
       this.props.onSearch(searchingText);
