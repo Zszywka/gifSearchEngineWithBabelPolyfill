@@ -28,7 +28,7 @@ App = React.createClass({
       loading: true
     });
     var self = this;
-    this.getGif(searchingText,)
+    this.getGif(searchingText)
       .then(function(gif) {
       self.setState({
         loading: false,
