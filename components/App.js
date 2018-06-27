@@ -75,10 +75,10 @@ App = React.createClass({
           } else {
             reject(new Error(this.statusText));
           }
-        }
+        };
+        xhr.send();
       }
     )
-    xhr.send();
   },
 
   render: function() {
